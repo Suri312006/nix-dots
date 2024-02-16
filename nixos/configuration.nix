@@ -110,7 +110,7 @@ hashedPassword = "$6$EBw6Fv3Eio1esElF$OJXeyxIB5j8f.AjBArM4.BhAk3rU5afCg/jk6xiVOZ
         # TODO: Add your SSH public key(s) here, if you plan on using SSH to connect
       ];
       # TODO: Be sure to add any other groups you need (such as networkmanager, audio, docker, etc)
-      extraGroups = ["wheel", "networkmanager"];
+      extraGroups = ["wheel" "networkmanager"];
     };
   };
 
