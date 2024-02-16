@@ -104,7 +104,7 @@
       # TODO: You can set an initial password for your user.
       # If you do, you can skip setting a root password by passing '--no-root-passwd' to nixos-install.
       # Be sure to change it (using passwd) after rebooting!
-hashedPassword = "$6$EBw6Fv3Eio1esElF$OJXeyxIB5j8f.AjBArM4.BhAk3rU5afCg/jk6xiVOZpq/UUPgOG08MD1/uEts0eFLpObtp4KosUpozw/ojuYZ1";
+passwordFile = "/home/suri/nix-dots/passwordFile";
       isNormalUser = true;
       openssh.authorizedKeys.keys = [
         # TODO: Add your SSH public key(s) here, if you plan on using SSH to connect
