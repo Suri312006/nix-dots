@@ -115,7 +115,7 @@
 discord
 kitty
 neovim
-	]
+	];
 
     };
   };
